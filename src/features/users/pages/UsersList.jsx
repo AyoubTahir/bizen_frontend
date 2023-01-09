@@ -12,7 +12,7 @@ import {
   useDeleteManyUsersMutation,
 } from "../redux/api/usersApiSlice.js";
 import Breadcrumb from "../../../components/ui/Breadcrumb.jsx";
-import UserItem from "../components/userItem.jsx";
+import UserItem from "../components/UserItem.jsx";
 import Loader from "../../../components/ui/Loader.jsx";
 import EmptyTableRow from "../../../components/ui/EmptyTableRow.jsx";
 import { Link } from "react-router-dom";
