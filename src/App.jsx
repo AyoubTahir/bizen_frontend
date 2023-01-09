@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Login from "./features/login/pages/Login";
 import Master from "./layouts/Master";
-import Dashboard from "./features/dashboard/pages/dashboard";
+import Dashboard from "./features/dashboard/pages/Dashboard";
 import UsersList from "./features/users/pages/UsersList";
 import NotFound from "./layouts/NotFound";
 import { NewUser } from "./features/users/pages/NewUser";
