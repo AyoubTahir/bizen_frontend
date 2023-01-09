@@ -8,9 +8,9 @@ import loginSlice, {
 } from "../features/login/redux/loginSlice";
 const Master = () => {
   const sidebarStatus = useSelector(toggleSidebarSelector);
-  //const token = useSelector(selectCurrentToken);
+  const token = useSelector(selectCurrentToken);
 
-  //if (!token) return <Navigate to="/login" replace={true} />;
+  if (!token) return <Navigate to="/login" replace={true} />;
 
   return (
     <div className="min-h-screen overflow-x-hidden">
