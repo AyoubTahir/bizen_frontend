@@ -33,7 +33,7 @@ const Login = () => {
 
   return (
     <div className="w-screen h-screen flex justify-center items-center">
-      <div className="w-[400px] sm:w-[500px] h-[500px] px-5 sm:px-10 py-12 border border-[#dddddd] rounded">
+      <div className="w-[400px] sm:w-[500px] h-[530px] px-5 sm:px-10 py-12 border border-[#dddddd] rounded">
         {isLoading && (
           <div className="w-full h-full flex justify-center items-center">
             <Loader />
@@ -86,6 +86,14 @@ const Login = () => {
               <button className="bg-secondary py-3 rounded text-white font-medium">
                 Login
               </button>
+              <div className="mt-5">
+                <div className="mb-1">
+                  <span className="font-bold">Email: </span> test@gmail.com
+                </div>
+                <div>
+                  <span className="font-bold">Password: </span> 123456
+                </div>
+              </div>
             </form>
           </>
         )}
